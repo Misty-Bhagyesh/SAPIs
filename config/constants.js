@@ -1,4 +1,4 @@
 const constants = {
-    server_root: "http://localhost:8000"
+    server_root: "https://blue-goose-vest.cyclic.app"
 }
 exports.constants = constants;
