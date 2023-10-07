@@ -12,7 +12,9 @@ connect();
 app.use(express.json());
 app.use(cors());
 // app.use('/', express.static(__dirname + '/public'));
-
+app.get("/", (req, res) => {
+    res.json({ message: "Welcome to Scrappi api." });
+});
 app.use('/api/users', usersRoute);
 app.use('/api/admin', adminRoute);
 app.use('/api/category', categoryRoute);

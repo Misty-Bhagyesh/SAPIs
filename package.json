@@ -4,7 +4,7 @@
   "description": "it is rest API project",
   "main": "index.js",
   "scripts": {
-       	"start": "node index.js"
+    "start": "node index.js"
   },
   "author": "VRINA",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "nodemon": "^2.0.22"
   },
   "dependencies": {
+    "aws-sdk": "^2.1472.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
